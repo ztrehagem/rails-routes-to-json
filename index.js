@@ -15,10 +15,11 @@ function RailsRoutesToJson(options, callback) {
 
 RailsRoutesToJson.getJsObject = function(options, callback) {
   options = Object.assign({
-    isIgnoreNonames: true,
+    command: 'rails routes',
+    isIgnoreNonames: true
   }, options || {});
 
-  RailsRoutesToJson.execCommand(options.command || 'rails routes', (raw)=> {
+  RailsRoutesToJson.execCommand(options.command, (raw)=> {
     var items = raw.toString().split('\n').slice(1).filter((str)=> {
       return str && str.length;
     }).map((str)=> {
