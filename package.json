@@ -1,11 +1,19 @@
 {
   "name": "rails-routes-to-json",
   "version": "1.0.0",
-  "description": "",
+  "description": "a node module to convert rails routes to json",
   "main": "index.js",
   "scripts": {
     "test": "node test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ztrehagem/rails-routes-to-json.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ztrehagem/rails-routes-to-json/issues"
+  },
+  "homepage": "https://github.com/ztrehagem/rails-routes-to-json#readme"
 }
