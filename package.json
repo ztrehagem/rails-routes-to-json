@@ -1,6 +1,6 @@
 {
   "name": "rails-routes-to-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a node module to convert rails routes to json",
   "main": "index.js",
   "scripts": {
